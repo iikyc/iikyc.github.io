@@ -1,0 +1,83 @@
+baseURL = 'https://iikyc.github.io/'
+title = 'Karam Chatra'
+theme = 'PaperMod'
+locale = 'en-us'
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+pagerSize = 5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+env = 'production'
+defaultTheme = 'dark'
+disableThemeToggle = true
+hideFooter = true
+ShowReadingTime = true
+ShowShareButtons = false
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+TocOpen = true
+disableScrollToTop = false
+disableAnchoredHeadings = true
+
+[params.cover]
+hiddenInList = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.3
+minMatchCharLength = 2
+keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 1
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 2
+
+[[menu.main]]
+identifier = 'archives'
+name = 'Archive'
+url = '/archives/'
+weight = 3
+
+[[menu.main]]
+identifier = 'search'
+name = 'Search'
+url = '/search/'
+weight = 4
+
+[params.homeInfoParams]
+Title = "Junior Threat Intelligence Analyst"
+Content = """
+Views and opinions are solely my own.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/iikyc"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/kchatra"
