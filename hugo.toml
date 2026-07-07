@@ -12,6 +12,9 @@ buildExpired = false
 [pagination]
 pagerSize = 5
 
+[caches.images]
+dir = ':cacheDir/images'
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
