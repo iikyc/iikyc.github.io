@@ -1,5 +1,5 @@
 +++
-title = 'TryHackMe - 0day Writeup'
+title = 'TryHackMe — 0day Writeup'
 date = '2023-10-20'
 draft = false
 tags = ["TryHackMe", "Linux"]
