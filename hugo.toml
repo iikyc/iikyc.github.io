@@ -1,5 +1,6 @@
 baseURL = 'https://iikyc.github.io/'
 title = 'Karam Chatra'
+titleCaseStyle = "none"
 theme = 'PaperMod'
 locale = 'en-us'
 
