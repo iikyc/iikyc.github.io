@@ -1,0 +1,61 @@
+/* ============================================================
+   Overrides theme styling
+   ============================================================ */
+
+:root[data-theme="dark"] {
+    /* ---------- Palette ---------- */
+    --accent:        #c83f25;
+    --accent-hover:  #e05334;
+
+}
+
+/* ---------- Links in post body ---------- */
+.md-content a {
+    color: var(--accent);
+    text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.md-content a:hover { color: var(--accent-hover); }
+
+/* ---------- Post titles ---------- */
+.post-entry:hover .entry-header h2 { color: var(--accent); }
+
+.post-tags a:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+/* ---------- /tags/ page ---------- */
+.terms-tags a:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* ---------- Header / nav ---------- */
+.header-nav .menu a:hover { color: var(--accent); }
+
+/* ---------- Homepage social icons ---------- */
+.social-icons a:hover svg { color: var(--accent); }
+
+/* ---------- Blockquote ---------- */
+.md-content blockquote {
+    border-inline-start: 3px solid var(--accent);
+}
+
+/* ---------- Code ---------- */
+code { color: var(--accent); }
+
+/* ---------- Table of contents ---------- */
+.toc a:hover { color: var(--accent); }
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumbs a:hover { color: var(--accent); }
+
+/* ---------- Search ---------- */
+.searchbox input:focus { border-color: var(--accent); }
+
+/* ---------- Archives ---------- */
+.archive-entry:hover .archive-entry-title { color: var(--accent); }
+
+/* ---------- Scroll-to-top button ---------- */
+.top-link:hover { background: var(--accent); }
